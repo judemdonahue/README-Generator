@@ -1,23 +1,35 @@
-#<test>
+# < README Generator > ![License](https://img.shields.io/static/v1?label=license&message=GNU-Lesser-GPLv2.1&color=9cf) 
+
 
 ## Description
-test
+the purpose of this project was to shortcut the process of manually making a readme every time 
 
-## Table of Contents (Optional)
-Yes
+## Table of Contents
+
+- [Installation](#Installation)
+
+- [Instructions](#Instructions)
+
+- [Contributors](#Contributors)
+
+- [Tests](#Tests)
+
+- [License](#License)
+
+- [Author](#Author)
 
 
 ## Installation
-sets
+node index
 
 ## Usage
-etse
+gihub link
 
 ## Credits
-tset
+noneski
 
 ## License
-sets
+GNU Lesser General Public License v2.1
 
 ## Badges
 
