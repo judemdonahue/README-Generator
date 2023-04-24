@@ -35,15 +35,16 @@ ${answers.installation}
 ${answers.usage}
 
 ## License
-This application is covered under the ${answers.license}
+This application is covered under the ${answers.license}.
 
 ## Credits
 ${answers.credits}
 
 ## Tests
-
+${answers.tests}
 
 ## Questions
+Please don't hesitate to reach out to me if you have any queries, you can do so by contacting me through my GitHub profile [${answers.username}](https://github.com/${answers.username}) or by sending an email to ${answers.email}.
 
 `);
 
@@ -51,7 +52,11 @@ return genREADME;
 }
 
 function renderLicenseBadge(license) {
-    let licenseBadge;
+    if (license == 'None') {
+        return '';
+    }
+    
+    let licenseBadge = license;
 
     switch (license) {
         case "Apache License 2.0":
@@ -96,8 +101,7 @@ function renderLicenseBadge(license) {
     }
 
     return `https://img.shields.io/static/v1?label=license&message=${licenseBadge.message}&color=${licenseBadge.color}`;
-}
-
+} 
 
 
 module.exports = generateMarkdown;
