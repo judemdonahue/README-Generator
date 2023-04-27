@@ -10,11 +10,11 @@ ${answers.description}
 
 ## Table of Contents
 \n- [Installation](#Installation)
-\n- [Instructions](#Instructions)
-\n- [Contributors](#Contributors)
-\n- [Tests](#Tests)
+\n- [Usage](#Usage)
 \n- [License](#License)
-\n- [Author](#Author)
+\n- [Credits](#Credits)
+\n- [Tests](#Tests)
+\n- [Questions](#Questions)
 
 ## Installation
 ${answers.installation}
