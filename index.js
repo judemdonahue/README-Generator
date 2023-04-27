@@ -63,7 +63,7 @@ const questions = [
     name: 'credits',
     message: 'List your collaborators, or any third-party assets that require attribution. If you followed tutorials, include links to those here as well.',
     validate: function (input) {
-      if (input.length <= 3) {
+      if (input.length <= 2) {
           return '❗Please list your collaborators, if any.❗';
       }
       return true;
@@ -97,7 +97,6 @@ const questions = [
     }
   }
 ];
-
 
 // TODO: Create a function to initialize app
 function init() {

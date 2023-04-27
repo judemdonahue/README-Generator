@@ -1,15 +1,3 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
 
@@ -99,21 +87,7 @@ function renderLicenseBadge(license) {
             licenseBadge = { message: "The-Unilicense", color: "ff69b4" };
             break; 
     }
-
     return `https://img.shields.io/static/v1?label=license&message=${licenseBadge.message}&color=${licenseBadge.color}`;
 } 
 
-
 module.exports = generateMarkdown;
-
-
-/*
-
-
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-
-*/
