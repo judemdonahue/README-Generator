@@ -19,10 +19,13 @@ The README.md generator project is a command-line application that generates a h
 - [Author](#Author)
 
 ## Installation
-
+Clone linked repository: https://github.com/judemdonahue/README-Generator
 
 ## Usage
-To use, open the command line and enter Node Index.js and answer the questions that are prompted. Upon answering the questions, a new README.md file will be written in the './generated' folder.
+To use, clone the repository to your local device. Open the cloned repo in VS-Code, and open a New Terminal. In the CLI, run ‘npm i’ to install the required packages. Enter ‘node index.js’, and answer the questions that are prompted. Upon answering the questions, a new README.md file will be written into the './generated' folder.
+
+[READMEdemoVideo.webm](https://user-images.githubusercontent.com/122579098/234986337-c471b6b1-1b81-4d39-9245-b68a2d0161bf.webm)
+
 
 ## License
 This application is covered under the MIT License.
