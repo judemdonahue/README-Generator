@@ -35,7 +35,7 @@ To use, clone the repository to your local device. Open the cloned repo in VS-Co
 This application is covered under the MIT License.
 
 ## Credits
-N/A
+**Worked alongside and compared methods to complete this project with other classmates
 
 ## Tests
 N/A
